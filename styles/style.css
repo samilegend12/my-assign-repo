@@ -4,31 +4,34 @@
   font-weight: normal;
   font-style: normal;
 }
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header background */
+.background {
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  max-width: 1440px;
+}
 /* nav styles */
+.black-color{
+  color: #252432;
+}
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 10px 200px;
   align-items: center;
-}
-div li {
-  list-style: none;
+  margin: 0 120px;
 }
 .logo {
   font-size: 34px;
   font-weight: bold;
   color: #4e47ff;
 }
-/* banner */
-.banner {
-  text-align: center;
-  margin-top: 170px;
-}
-.banner-content {
-  font-size: 65px;
-  font-weight: bold;
-}
-/* shared styles */
 .btn {
   font-size: 16px;
   font-weight: bold;
@@ -37,6 +40,12 @@ div li {
   color: #ffffff;
   padding: 12px 36px;
   border: none;
+  margin-top: 37px;
+}
+/* banner */
+.banner-content {
+  font-size: 50px;
+  font-weight: bold;
 }
 .btn-2 {
   font-size: 16px;
@@ -48,12 +57,13 @@ div li {
   border: none;
   margin-top: 37px;
 }
-.black-colour {
-  color: #252432;
+.banner-container {
+  max-width: 905px;
+  
 }
-
-.header {
-  background-image: url(../Assets/Hero-bg.png);
-  background-repeat: repeat;
-  background-position: ;
+.banner {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin:80px;
 }
