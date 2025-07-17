@@ -52,6 +52,9 @@
   padding: 12px 36px;
   border: none;
 }
+.btn:hover {
+  background-color: aqua;
+}
 /* banner */
 .banner-content {
   font-size: 65px;
@@ -67,6 +70,9 @@
   padding: 12px 36px;
   border: none;
   margin-top: 37px;
+}
+.btn-2:hover {
+  background-color: aqua;
 }
 .banner-container {
   text-align: center;
@@ -103,13 +109,12 @@
   border: none;
   margin-top: 23px;
 }
+.btn-3:hover {
+  background-color: aqua;
+}
 .action-pic {
   border-radius: 48px;
   max-width: 403px;
-}
-.action-content {
-  max-width: 1140px;
-  gap: 220px;
 }
 .action-contain {
   display: flex;
@@ -117,6 +122,11 @@
   align-items: center;
   margin: 177px 159px 116px 141px;
 }
+.action-content {
+  max-width: 1140px;
+  gap: 220px;
+}
+
 /* productive users */
 .stat-item {
   font-size: 80px;
@@ -187,4 +197,53 @@
 }
 .bogas {
   color: rgba(117, 117, 117, 1);
+}
+/* form */
+
+footer {
+  padding: 100px 150px;
+  display: flex;
+  gap: 150px;
+  margin-top: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  border-radius: 10px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 20px 32px;
+  margin-bottom: 19px;
+  border: none;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+footer label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.cont-title {
+  font-size: bold;
+  font-size: 97px;
+  margin-top: 100px;
+}
+.last-btn {
+  margin-top: 23px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 7px;
+  background-color: #4e47ff;
+  color: #ffffff;
+  padding: 19px 201px;
+  border: none;
+  margin-top: 10px;
+}
+.last-btn:hover {
+  background-color: aqua;
 }
