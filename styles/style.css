@@ -247,3 +247,30 @@ footer label {
 .last-btn:hover {
   background-color: aqua;
 }
+
+/* lastttttttt */
+.last-title {
+  font-weight: 900;
+  color: #4e47ff;
+  margin: 0;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+.last-des {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(137, 135, 161);
+  margin-bottom: 20px;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 48px;
+  font-size: 16px;
+  color: rgb(137, 135, 161);
+}
+.last-part {
+  text-align: center;
+}
+.last-part {
+  margin: 104px 455px;
+}
